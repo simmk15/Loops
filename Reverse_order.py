@@ -1,5 +1,6 @@
-num=int(input("Enter a number="))
-while num>=1:
-    print(num)
-    num-=1
-    
+number = int(input("Enter a number="))
+count=0
+while number>0:
+    number=number//10
+    count+=1
+print("Total number of digits=",count)
